@@ -37,6 +37,10 @@ namespace Pinch.SDK.Payments
         /// </summary>
         public int Amount { get; set; }
         /// <summary>
+        /// Application fee in cents. This fee is subtracted from the merchant's settlement after Pinch fees. eg. $10.00 = 1000
+        /// </summary>
+        public int ApplicationFee { get; set; }
+        /// <summary>
         /// A description of the payment. This may be shown to the Payer to understand the payment.
         /// </summary>
         public string Description { get; set; }

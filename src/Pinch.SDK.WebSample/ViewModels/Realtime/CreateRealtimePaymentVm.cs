@@ -10,6 +10,7 @@ namespace Pinch.SDK.WebSample.ViewModels.Realtime
         public string PublishableKey { get; set; }
         public string CreditCardToken { get; set; }
         public decimal Amount { get; set; }
+        public decimal ApplicationFee { get; set; }
         public string Description { get; set; }
         public string PayerName { get; set; }
         public string PayerEmail { get; set; }

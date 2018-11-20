@@ -59,6 +59,7 @@ namespace Pinch.SDK.WebSample.Controllers
                 Email = model.PayerEmail,
                 CreditCardToken = model.CreditCardToken,
                 Amount = Convert.ToInt32(model.Amount * 100),                
+                ApplicationFee = Convert.ToInt32(model.ApplicationFee * 100),                
                 Description = model.Description                
             });
 
